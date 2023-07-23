@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    overflow-x:hidden;
+}
+.bannerBgImage{
+    height:100vh;
+    background: url("https://img.freepik.com/free-photo/high-angle-desktop-with-laptop-copy-space_23-2148430882.jpg?w=1060&t=st=1690042825~exp=1690043425~hmac=22c215579d5f31cd06b20d122505c932a4ee202c6a7963bfed72ee5ffb2ca8f6");
+    background-size:cover;
+    position: relative;
+}
+.col-md-8{
+    font-size: 1.15rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.card-t
+{
+    font-size: 3rem;
+    text-align:center;
+    
+}
+.text-differ{
+    font-size:55px;
+    text-align:center;
+}
+
+.bannerText{
+    text-align: right;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:white;
+}
+.bannerTitle{
+    font-size: 4rem;
+}
+.bannerDesc{
+    font-size: 2rem;
+}
+
+.card{
+    cursor:pointer;
+}
+
+.card:hover{
+    background-color: rgb(208, 38, 148);
+    border: 2px solid rgb(159, 192, 92);
+}
+
+.bIcon{
+    width:100%;
+    text-align: center;
+    font-size: 40px;
+}
+.img-fluid:hover{
+    border: 2px solid rgb(176, 224, 80);
+}
+
+.card-img-top{
+    height: 50vh;
+}
